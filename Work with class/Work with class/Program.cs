@@ -7,7 +7,7 @@ namespace Work_with_class
         static void Main(string[] args)
         {
             Logger logs = new Logger();
-            Console.WriteLine("Type log: Error, Info, Warning or All");
+            Console.WriteLine("Enter the log type: Error, Info, Warning or All");
             logs.LogLevel = Console.ReadLine();
 
             Starter.Run(logs);
