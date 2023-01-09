@@ -29,7 +29,7 @@ namespace List
 
             if (_index >= _items.Length)
             {
-                T[] array = new T[_items.Length + 100];
+                T[] array = new T[_items.Length * 2];
                 for (int i = 0; i < _items.Length; i++)
                 {
                     array[i] = _items[i];

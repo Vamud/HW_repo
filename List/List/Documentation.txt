@@ -4,16 +4,16 @@
 Поэтому колекциям из этого пространства имен нужно давать предпочтение коллекциям из пространства имен System.Collections.Generic.
 
 Для поиска:  
-Dictionary<TKey,TValue> Add O(n), Remove O(n), Indexer O(n), Contains O(n);
+Dictionary<TKey,TValue>:  Add O(n), Remove O(n), Indexer O(n), Contains O(n);
 
 Для сортировки: 
-SortedDictionary<TKey,TValue> Add O(log n), Remove O(log n), Indexer O(log n), Contains O(n);
+SortedDictionary<TKey,TValue>:  Add O(log n), Remove O(log n), Indexer O(log n), Contains O(n);
 
 Для чтения: 
-List<T> Add O(1), Remove O(n), Indexer O(1), Contains O(n);
-SortedList<TKey,TValue> Add O(n), Remove O(1), Indexer O(n), Contains O(n);
+List<T>:  Add O(1), Remove O(n), Indexer O(1), Contains O(n);
+SortedList<TKey,TValue>:  Add O(n), Remove O(1), Indexer O(n), Contains O(n);
 
 Для определенного порядка чтения: 
-Queue<T> Add O(1), Contains O(n);
-Stack<T> Add O(1), Contains O(n);
-LinkedList<T> Add O(1), Remove O(1), Indexer O(n), Contains O(n);
+Queue<T>:  Add O(1), Contains O(n);
+Stack<T>:  Add O(1), Contains O(n);
+LinkedList<T>:  Add O(1), Remove O(1), Indexer O(n), Contains O(n);
